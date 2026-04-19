@@ -1,0 +1,20 @@
+{
+  "message_type": "incident_summary",
+  "incident_id": "INC_001",
+  "status": "active",
+  "timestamp": "2026-04-19T10:00:05Z",
+  "affected_asset": "P101",
+  "zone_id": "ZONE_A",
+  "severity": "high",
+  "anomaly_score": 0.87,
+  "failure_risk_score": 0.72,
+  "root_cause_summary": "Likely upstream pump degradation causing pressure instability.",
+  "recommended_action": "Inspect pump P101 and monitor pressure trend.",
+  "confidence": 0.88,
+  "audit_trace": [
+    "Telemetry processed",
+    "Anomaly detected by autoencoder_v1",
+    "Root cause scored using graph reasoning",
+    "Decision rule triggered"
+  ]
+}

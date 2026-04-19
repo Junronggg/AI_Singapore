@@ -1,0 +1,20 @@
+{
+  "message_type": "decision_result",
+  "incident_id": "INC_001",
+  "timestamp": "2026-04-19T10:00:04Z",
+  "asset_id": "P101",
+  "recommended_actions": [
+    {
+      "action": "inspect_pump_P101",
+      "priority": 1,
+      "reason": "High anomaly score and high failure risk"
+    },
+    {
+      "action": "monitor_pressure_next_10_minutes",
+      "priority": 2,
+      "reason": "To confirm persistence of abnormal trend"
+    }
+  ],
+  "operational_impact": "low",
+  "human_approval_required": true
+}

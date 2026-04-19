@@ -1,0 +1,14 @@
+{
+  "message_type": "predictive_result",
+  "timestamp": "2026-04-19T10:00:02Z",
+  "asset_id": "P101",
+  "failure_risk_score": 0.72,
+  "maintenance_priority": "high",
+  "maintenance_horizon_hours": 24,
+  "predicted_issue": "pump_degradation",
+  "confidence": 0.84,
+  "model_info": {
+    "model_name": "xgboost_v1",
+    "model_version": "1.0.0"
+  }
+}

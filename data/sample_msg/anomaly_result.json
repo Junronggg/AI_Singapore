@@ -1,0 +1,15 @@
+{
+  "message_type": "anomaly_result",
+  "timestamp": "2026-04-19T10:00:01Z",
+  "asset_id": "P101",
+  "zone_id": "ZONE_A",
+  "anomaly_flag": true,
+  "anomaly_score": 0.87,
+  "severity": "high",
+  "anomaly_type": "pressure_deviation",
+  "confidence": 0.91,
+  "model_info": {
+    "model_name": "autoencoder_v1",
+    "model_version": "1.0.0"
+  }
+}

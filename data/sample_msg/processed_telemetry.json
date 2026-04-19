@@ -1,0 +1,22 @@
+{
+  "message_type": "processed_telemetry",
+  "timestamp": "2026-04-19T10:00:00Z",
+  "asset_id": "P101",
+  "zone_id": "ZONE_A",
+  "source": "swat_replay",
+  "sensor_values": {
+    "flow": 2.31,
+    "pressure": 1.42,
+    "level": 0.88
+  },
+  "features": {
+    "flow_mean_10": 2.28,
+    "pressure_std_30": 0.06,
+    "pressure_diff_upstream": 0.12
+  },
+  "data_quality": {
+    "missing_flag": false,
+    "interpolated_flag": false,
+    "quality_score": 0.99
+  }
+}

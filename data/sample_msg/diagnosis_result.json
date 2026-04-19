@@ -1,0 +1,18 @@
+{
+  "message_type": "diagnosis_result",
+  "incident_id": "INC_001",
+  "timestamp": "2026-04-19T10:00:03Z",
+  "asset_id": "P101",
+  "root_causes": [
+    {
+      "cause": "upstream_pump_degradation",
+      "score": 0.76,
+      "evidence": [
+        "pressure drop detected",
+        "upstream dependency linked in graph",
+        "pump vibration elevated"
+      ]
+    }
+  ],
+  "root_cause_summary": "Likely upstream pump degradation causing pressure instability."
+}

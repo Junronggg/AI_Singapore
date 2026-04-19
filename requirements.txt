@@ -1,0 +1,59 @@
+# =========================
+# Core Python Utilities
+# =========================
+numpy
+pandas
+python-dotenv
+pydantic
+
+# =========================
+# Data Processing & Streaming
+# =========================
+redis
+influxdb-client
+
+# =========================
+# Machine Learning
+# =========================
+scikit-learn
+xgboost
+
+# Deep Learning (choose ONE, PyTorch preferred)
+torch
+torchvision
+torchaudio
+
+# =========================
+# Backend (API Layer)
+# =========================
+fastapi
+uvicorn[standard]
+
+# =========================
+# Digital Twin / Graph
+# =========================
+networkx
+neo4j
+
+# =========================
+# Visualization / Frontend
+# =========================
+streamlit
+plotly
+
+# =========================
+# Utilities & Logging
+# =========================
+tqdm
+loguru
+
+# =========================
+# Testing
+# =========================
+pytest
+
+# =========================
+# Optional (nice to have)
+# =========================
+python-multipart
+requests
