@@ -1,0 +1,7 @@
+{
+  "model_type": "IsolationForest",
+  "threshold": 0.010248054912658788,
+  "contamination": 0.01,
+  "train_rows": 29160,
+  "val_rows": 29160
+}
