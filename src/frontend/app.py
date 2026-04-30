@@ -283,11 +283,20 @@ with st.sidebar:
 # ---------------------------
 # Header
 # ---------------------------
-st.markdown('<div class="app-title">💧 Water Infrastructure Monitoring Dashboard</div>', unsafe_allow_html=True)
-st.markdown(
-    '<div class="app-subtitle">Multi-Agent Anomaly Detection & Predictive Maintenance Demo</div>',
-    unsafe_allow_html=True,
-)
+logo_col, title_col = st.columns([0.12, 0.88])
+
+with logo_col:
+    st.image("assets/logo.png", width=90)
+
+with title_col:
+    st.markdown(
+        '<div class="app-title">Water Infrastructure Monitoring Dashboard</div>',
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        '<div class="app-subtitle">Multi-Agent Anomaly Detection & Predictive Maintenance Demo</div>',
+        unsafe_allow_html=True,
+    )
 
 status_class = {
     "Critical": "status-critical",
@@ -410,7 +419,13 @@ with left:
             line=dict(width=3),
         )
     )
-    fig2.add_hline(y=0.7, line_dash="dash", annotation_text="Alert threshold", annotation_position="top left")
+    threshold = latest.get("threshold", 0.20)
+    fig2.add_hline(
+        y=threshold,
+        line_dash="dash",
+        annotation_text="Alert threshold",
+        annotation_position="top left",
+    )
     fig2.update_layout(
         height=260,
         margin=dict(l=20, r=20, t=10, b=20),

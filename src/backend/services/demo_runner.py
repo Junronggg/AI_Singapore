@@ -89,7 +89,7 @@ class DemoRunner:
             system_status = "Critical"
             severity = "HIGH"
             incident_status = "ACTIVE"
-        elif display_anomaly_score > 0.15:
+        elif display_anomaly_score > 0.19:
             system_status = "Warning"
             severity = "MEDIUM"
             incident_status = "MONITORING"
