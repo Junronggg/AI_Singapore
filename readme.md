@@ -26,6 +26,7 @@ It processes sensor data, detects anomalies, diagnoses root causes, predicts fai
 Data → Processing → Agents → Backend → Dashboard
 ### Multi-Agent Pipeline
 Monitoring → Anomaly Detection → Diagnosis → Prediction → Decision
+
 Each agent performs a specific task and passes structured outputs to the next stage.
 
 ---
@@ -133,23 +134,3 @@ uvicorn app:app --reload
 ```bash
 streamlit run dashboard.py
 ```
-
-## 📁 Project Structure
-├── backend/
-│   ├── app.py
-│   ├── agents/
-│   ├── models/
-│   └── data/
-│
-├── frontend/
-│   ├── dashboard.py
-│
-├── models/
-│   ├── isolation_forest.pkl
-│   └── scaler.pkl
-│
-├── data/
-│   ├── processed/
-│
-├── requirements.txt
-└── README.md
